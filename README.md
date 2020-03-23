@@ -1,5 +1,7 @@
 # JS-TMGamepadVisualInputs
 Draws visually 4 inputs (for racing games) of your gamepad, so you can use it in e.g. OBS.
+Inputs are left&right analog (position of stick).
+Acceleration & brake digital (0/1 states).
 
 Applies to different games, but made in mind with TrackMania.
 
