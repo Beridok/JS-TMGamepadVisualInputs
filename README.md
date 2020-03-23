@@ -26,6 +26,7 @@ h) Repeat same for braking, e.g. "B5".
 i) Open tmpad.js file with Notepad - pay attention to lines 2-4 & 7.
 
 If you stream/record in 60 FPS - do nothing. If value is diffent then change number in line 7 from 60 to desired.
+
 For lines 2-4 you need to enter your button numbers. Just numbers, so "B1" becomes "1".
 ```javascript
 var accButton = 1; //Acceleration button id.
