@@ -1,0 +1,90 @@
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.row{
+	height: 50%;
+	float: center;
+}
+
+.column{
+	width: 33%;
+	float: left;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 400px solid #555;
+	float: center;
+	position: absolute;
+	left: 34%;
+	right: 34%;
+}
+.active-up {
+	border-bottom: 400px solid #00ff00;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-top: 400px solid #555;
+	float: center;
+	position: absolute;
+	left: 34%;
+	right: 34%;
+	top: 50%;
+}
+.active-down {
+	border-top: 400px solid #ff0000;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	
+	border-top: 200px solid transparent;
+	border-right: 500px solid #555;
+	border-bottom: 200px solid transparent;
+	position: absolute;
+	right: 66%;
+}
+
+.active-left {
+	float: right;
+	border-right: 100px solid #ffffff;
+	
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 66%;
+	z-index: 2;
+	border-top: 200px solid transparent;
+	border-bottom: 200px solid transparent;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	
+	position: absolute;
+	left: 61%;
+	border-top: 200px solid transparent;
+	border-left: 500px solid #555;
+	border-bottom: 200px solid transparent;
+}
+.active-right {
+	float: left;
+	border-left: 100px solid #ffffff;
+	
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 61%;
+	z-index: 2;
+	border-top: 200px solid transparent;
+	border-bottom: 200px solid transparent;
+}
