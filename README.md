@@ -39,9 +39,9 @@ k) Open OBS and in your Scene's Sources add "Browser".
 
 l) Tick "Local file", then "browse" and select "tmpad.html" file.
 
-m) Set width as 1500 and height as 800.
+m) Set width as `1500` and height as `800`.
 
-n) Set custom frame rate to 60 (or whatever you use in recording/stream).
+n) Set custom frame rate to `60` (or whatever you use in recording/stream).
 
 o) Remove text from "Custom CSS" text area.
 
@@ -53,11 +53,11 @@ r) Right click on "Browser" (in Sources) and choose "Filters".
 
 s) In "Effect Filters" click + icon and add "Chroma Key".
 
-t) Change "Key Color Type" to Custom, then click "Select Color" and in HTML text-area enter "#200000". Hit "OK".
+t) Change "Key Color Type" to Custom, then click "Select Color" and in HTML text-area enter `#200000`. Hit "OK".
 
 u) Decrease similarity and smoothness to 1.
 
-v) Add new effect (+ icon) "Crop/Pad". Make sure "relative" is active and type "80" to "Right" field.
+v) Add new effect (+ icon) "Crop/Pad". Make sure "relative" is active and type `80` to "Right" field.
 
 w) You can close Filters now.
 
