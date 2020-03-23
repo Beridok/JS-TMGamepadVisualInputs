@@ -1,7 +1,7 @@
 # JS-TMGamepadVisualInputs
 Draws visually 4 inputs (for racing games) of your gamepad, so you can use it in e.g. OBS. Applies to different games, but made in mind with TrackMania.
 
-# How to Install.
+# How to Install/Configure
 Variant A: Watch video.
 https://youtu.be/wnIEWCdgi3s
 
@@ -25,9 +25,11 @@ i) Open tmpad.js file with Notepad - pay attention to lines 2-4 & 7.
 
 If you stream/record in 60 FPS - do nothing. If value is diffent then change number in line 7 from 60 to desired.
 For lines 2-4 you need to enter your button numbers. Just numbers, so "B1" becomes "1".
-```var deadzone = 0.01; //Put deadzone value here
+```javascript
 var accButton = 1; //Acceleration button id.
 var brakeButton = 5; //Brake button id.    
+var deadzone = 0.01; //Put deadzone value here.
+```
 
 j) Save file.
 
