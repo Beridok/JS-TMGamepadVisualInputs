@@ -82,8 +82,8 @@ var refreshInterval = (1000/frames).toFixed(2);
 setInterval(() => {
 	var gp = navigator.getGamepads()[0];
 	var gpAnal = gp.axes[0];
-	var gpAcc = gp.buttons[1].pressed;
-	var gpBrk = gp.buttons[5].pressed;
+	var gpAcc = gp.buttons[accButton].pressed;
+	var gpBrk = gp.buttons[brakeButton].pressed;
 	if ( gpAnal != 0 )
 	{
 		analog(gpAnal);
