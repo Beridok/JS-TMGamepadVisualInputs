@@ -40,7 +40,11 @@ j) Save file.
 
 k) Open OBS and in your Scene's Sources add "Browser".
 
+![Browser Source](https://i.imgur.com/emxEJO3.png)
+
 l) Tick "Local file", then "browse" and select "tmpad.html" file.
+
+![Properties of Browser](https://i.imgur.com/CdP6Bwt.png)
 
 m) Set width as `1500` and height as `800`.
 
@@ -66,4 +70,6 @@ w) You can close Filters now.
 
 x) Try moving gamepad and pushing buttons. If nothing happens, replug gamepad.
 
+# How to make it transparent in OBS
 
+![Chroma Key](https://i.imgur.com/QYgYqGr.png)
