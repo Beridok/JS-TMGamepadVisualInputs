@@ -80,7 +80,7 @@ var gpBrk = gp.buttons[5].pressed;
 
 var refreshInterval = (1000/frames).toFixed(2);
 setInterval(() => {
-	var gp = navigator.getGamepads()[0];
+	var gp = navigator.getGamepads()[gamepadID];
 	var gpAnal = gp.axes[0];
 	var gpAcc = gp.buttons[accButton].pressed;
 	var gpBrk = gp.buttons[brakeButton].pressed;
